@@ -1,0 +1,97 @@
+.section-hero {
+  background-image: url(../img/hero-banner-mobile@1x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2e2f42;
+  padding: 270px 0;
+  margin-bottom: 48px;
+}
+
+@media (min-resolution: 192dpi) {
+  .section-hero {
+    background-image: url(../img/hero-banner-mobile@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-hero {
+    background-image: url(../img/hero-banner-tablet@1x.jpg);
+    padding: 250px 150px;
+    margin-bottom: 24px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .section-hero {
+      background-image: url(../img/hero-banner-tablet@2x.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .section-hero {
+    background-image: url(../img/hero-banner-desktop@1x.jpg);
+    padding: 350px 0;
+    margin-bottom: 80px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .section-hero {
+      background-image: url(../img/hero-banner-desktop@2x.jpg);
+    }
+  }
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #0d0b0a;
+  max-width: 644px;
+  margin-bottom: 80px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  
+}
+.hero-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+.hero-text-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+.hero-button-first {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 113px;
+  height: 46px;
+  background: #c2d9fc;
+}
+.hero-button-second {
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 128px;
+  height: 46px;
+  background: rgba(13, 11, 10, 0.05);
+}
