@@ -1,1 +1,46 @@
-start and test
+.footer {
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-Newsletter {
+}
+.footer-logo {
+}
+.footer-logo-icon {
+}
+.footer-Newsletter-text {
+}
+.footer-form {
+}
+.footer-form-input {
+}
+.footer-form-button {
+}
+.footer-form-label {
+}
+.footer-links {
+}
+.footer-nav {
+}
+.footer-nav-text {
+}
+.footer-nav-list {
+}
+.footer-nav-list-items {
+}
+.footer-nav-link {
+}
+.footer-social {
+}
+.footer-social-text {
+}
+.footer-social-links {
+}
+.footer-social-links-items {
+}
+.footer-social-links-icon {
+}
+.footer-last-text {
+}
