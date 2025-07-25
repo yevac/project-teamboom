@@ -1,6 +1,8 @@
 .testimonials{
     background-color: #f2fafa;
 }
+
+
 .testimonials-title-container{
     padding: 64px 16px 0 16px;
 }
@@ -32,6 +34,7 @@ padding-top: 20px;
 .testimonials-item{
     border-radius: 24px;
 padding: 12px;
+min-width: 300px;
 
 background-color: #dfebeb;
 }
@@ -43,6 +46,20 @@ line-height: 1.6;
 text-align: center;
 color: #0d0b0a;
 }
+
+.testimonials-foto{
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px ;
+    border-radius: 100%;
+
+    max-width: 100%;
+}
+
+.testimonials-name-container{
+    margin-top: 16px;
+}
+
 
 .testimonials-name{
     font-weight: 700;
@@ -60,6 +77,3 @@ text-align: center;
 color: #0d0b0a;
 }
 
-.testimonials-name-container{
-    margin-top: 16px;
-}
