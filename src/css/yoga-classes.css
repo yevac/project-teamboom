@@ -64,6 +64,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-container:hover,
+.link-container:focus {
+  color: #0d0b0a;
+  background-color: #c2d9fc;
+  opacity: 0.5;
 }
 
 .join-link {
