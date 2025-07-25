@@ -1,4 +1,7 @@
 :root {
+  --font-family: "Sarabun", sans-serif;
+  --second-family: "Cabin", sans-serif;
+  --third-family: "Roboto", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
